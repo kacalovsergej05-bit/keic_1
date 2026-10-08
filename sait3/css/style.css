@@ -1,0 +1,4201 @@
+@font-face {
+    font-family: "Proxi";
+    src: url("../js/ofont.ru_Proxima\ Nova.ttf");
+}
+@font-face {
+    font-family: "Manrop";
+    src: url("../js/ofont.ru_Manrope.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../js/Inter-Light.otf");
+}
+@font-face {
+    font-family: "manr-1";
+    src: url("../js/Manrope-Light.ttf");
+}
+html {
+    font-size: clamp(3px, 0.52083333vw, 14px);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.head-1 {
+    display: flex;
+    font-family: "Manrop";
+    font-size: 1.5rem; 
+    width: 100%;
+    background: #F8F8F8;
+    gap: 3rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.head-1-s{
+    display: flex;
+    gap: 3rem;
+    width: 144rem;
+    justify-content: flex-end;
+}
+.knopki-head{
+    cursor: pointer;
+}
+
+.knopki-head:hover{
+    color: #69707D;
+}
+.head-2{
+    width: 100%;
+    height: 6.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.2rem solid #E8EAED;
+}
+.head-2 img{
+    width: 11.3rem;
+}
+.text-h-k-1-1{
+    font-family: "Manrop";
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #222222;
+
+}
+.text-h-k-1-2{
+    font-family: "Manrop";
+    font-size: 1.5rem; 
+    color: #222222;
+}
+.text-h-k-2-bootom{
+    width: 14.1rem;
+    height: 4rem;
+    border: 0.3rem solid #222222 ;
+    font-family: "Manrop";
+    font-size: 1.5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-h-k-2-bootom:hover{
+    background: #a8a8a8;
+    cursor: pointer;
+}
+.katalog{
+    display: flex;
+    justify-content: center;
+}
+.katalog-new{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.katalog-new-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-katalog{
+    display: flex;
+    width: 144rem;
+    justify-content: space-between;
+    margin-top: 13rem;
+    align-items: flex-end;
+}
+.head-katalog-oop{
+    display: flex;
+    width: 144rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+    align-items: flex-end;
+
+}
+.head-katalog-kl{
+    display: flex;
+    width: 144rem;
+    justify-content: space-between;
+    margin-top: 6rem;
+    align-items: flex-end;
+
+}
+.kartochka{
+    width: 62.1rem;
+    height: 39.5rem;
+    font-family: 'Manrop';
+    font-size: 1.5rem; 
+    position: relative;
+}
+.novin-kartochka{
+    color: #D33918;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+    
+}
+.head-2-222{
+    display: none;
+}
+.opis-kartochka{
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+.img-kartochka img{
+    width: 34.4rem;
+}
+.name-kartochka{
+    margin-bottom: 1rem;
+    color:#69707D;
+}
+.price-kartochka{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+}
+.price-kartochka2{
+    color:#69707D;
+    text-decoration:line-through;
+    margin-left: 1rem;
+    font-family: "Inter";
+    font-size: 1.6rem;
+}
+.ocnova-katalog{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 3rem;
+    width: 144rem;
+}
+.img-kartoc-2-pop {
+        font-size: 2rem;
+        margin-left: 0;
+       
+        font-weight: bold;
+}
+.kartinka-body-1{
+    background-image: url('../img/d2b281e5640a1d5a73a678b4a77bf793278ad585\ \(2\).jpg');
+    width: 144.2rem;
+    height: 36.3rem;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 800px rgb(0, 0, 0);
+    margin-top: 14rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kartinka-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-kartinka-body-1{
+    font-size: 4rem;
+    font-family: "Manrop";
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.text-kartinka-body-2{
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #fff;
+    width: 40rem;
+    margin-bottom: 3.2rem;
+    line-height: 2rem;
+}
+.text-kartinka-body-3{
+    height: 4.8rem;
+    width: 18.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #000;
+    font-weight:bold;
+}
+.text-kartinka-body-3:hover{
+    cursor: pointer;
+    background: #cacaca;
+    color: #000;
+}
+.kryzok-text-kartinka-b2{
+    background: #ffffff;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+    opacity: 15%;
+}
+.kryzok-text-kartinka-b22{
+    background: #f5f5f5;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+}
+.text-kartinka-b2{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.text-kartinka-b{
+    margin-left: 4rem;
+}
+.kartoc-2-pop{
+    background: #F8F8F8;
+    width: 34.6rem;
+    height: 37.5rem;
+    cursor: pointer;
+}
+
+.img-kartoc-2-pop{
+    font-size: 2rem;
+    font-family: "Manrop";
+    color: #000;
+    margin-left: 3rem;
+}
+.img-kartoc-3-pop{
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+.obrat-cvyz-ewe{
+    display: none;
+}
+.ocnova-katalog-f2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}   
+.ocnova-katalog-f2-1{
+    width: 144.2rem;
+    display: flex;
+    gap: 2rem;
+}
+.img-kartoc-23-pop{
+    margin-left: 2rem;
+    margin-top: -2rem;
+    
+}
+.img-kartoc-23-pop img{
+    height: 30rem;
+}
+.kartoc-2-pop:hover .img-kartoc-2-pop,
+.kartoc-2-pop:hover .img-kartoc-3-pop {
+    color: #69707D;
+    transition: all .2s ease;
+}
+.img-kartoc-3-pop{
+    margin-top: 0.5rem;
+}
+.kategoriii{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+.kategoriii1{
+    display: flex;
+    width: 144.2rem;
+    flex-direction: column;
+}
+.img-kategor1 img{
+    width: 46.7rem;
+}
+.img-kategor3{
+    display: flex;
+    gap: 1rem;
+    width: 38rem;
+    flex-wrap: wrap;
+}
+.img-kategor3-1{
+     display: inline-flex;
+    height: 3.2rem;
+    align-items: center;
+    border: 0.1rem solid #E8EAED;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #222222;
+    padding: 0 1.5rem;
+    white-space: nowrap; 
+}
+.img-kategor2{
+    font-size: 2rem;
+    font-family: "Manrop";
+    color: #222222;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.img-kategor2:hover{
+    color:#D33918;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+.kategoriii-katalog{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.text-h-k-1-1s{
+    font-family: "Manrop";
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 2rem;
+}
+.kartochka-kategor-1{
+    display: flex;
+    justify-content: space-between;
+}
+.kartochka-kategor-12{
+    border: 0.1rem solid #E8EAED;
+    width: 34.6rem;
+    height: 16.4rem;
+}
+.pozimy-mu1{
+    width: 144.2rem;
+    margin-top: 5rem;
+}
+.pozimy-mu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-kartochka-kategor-12 img{
+    height: 3.2rem;
+
+}
+.img-kartochka-kategor-12{
+    margin-top: 2.4rem;
+    margin-left: 2.4rem;
+}
+.text-kartochka-kategor-12{
+    font-family: "Manrop";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222222;
+    margin-top: 5.6rem;
+    margin-left: 2rem;
+}
+.kartinka-body-19{
+    background-image: url('../img/bd44bebc7332a29fc04c0a814e445b4e1e7f1288.jpg');
+    width: 100%;
+    height: 36.3rem;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 800px rgb(0, 0, 0);
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-kartinka-b9{
+    margin-left: 24rem;
+}
+.kartinka-body9{
+    padding: 0;
+}
+.kartinka-body9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-kartinka-body-19{
+    font-size: 4rem;
+    font-family: "Manrop";
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+}
+.text-kartinka-body-29{
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #fff;
+    width: 70rem;
+    margin-bottom: 3.2rem;
+    line-height: 2rem;
+}
+.text-kartinka-body-39{
+    height: 5.8rem;
+    width: 20.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #000;
+    border: 0.2rem solid #fff;
+}
+.text-kartinka-body-39:hover{
+    cursor: pointer;
+    background: #cacaca;
+    color: #000;
+}
+.kryzok-text-kartinka-b29{
+    background: #ffffff;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+    opacity: 15%;
+}
+.kryzok-text-kartinka-b229{
+    background: #f5f5f5;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+}
+.text-kartinka-b29{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.text-kartinka-body-391{
+    height: 5.8rem;
+    width: 20.5rem;
+    border: 0.2rem solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #fff;
+}
+.text-kartinka-body-391:hover{
+    background: #96989b67;
+    cursor: pointer;
+}
+.text-kartinka-bss{
+    display: flex;
+    gap: 2rem;
+}
+.kartinka-body-197{
+    background: #9E9E9E;
+    width: 100%;
+    height: 14rem;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-kartinka-b97{
+    display: flex;
+    width: 144.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.kartinka-body97{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-kartinka-body-197{
+    font-size: 2.4rem;
+    font-family: "Manrop";
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+.text-kartinka-body-297{
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #fff;
+    width: 70rem;
+    margin-bottom: 3.2rem;
+    line-height: 2rem;
+}
+.text-kartinka-body-397{
+    height: 4.8rem;
+    width: 22.8rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #000;
+}
+.text-kartinka-body-397:hover{
+    cursor: pointer;
+    background: #cacaca;
+    color: #000;
+}
+.kryzok-text-kartinka-b297{
+    background: #ffffff;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+    opacity: 15%;
+}
+.kryzok-text-kartinka-b2297{
+    background: #f5f5f5;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+}
+.text-kartinka-b297{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.text-kartinka-body-3917{
+    height: 4.8rem;
+    width: 22.8rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+.text-kartinka-body-3917:hover{
+    background: #cacaca;
+    cursor: pointer;
+}
+.text-kartinka-bss7{
+    display: flex;
+    gap: 2rem;
+}
+.text-kartinka-body-vce{
+    width: 36.2rem;
+    margin-top: 2rem;
+}
+.text-kartinka-bss7{
+    margin-right: 2rem;
+}
+.imgg-kartinka-body-397 img{
+    height: 1.1rem;
+    margin-left: 0.4rem;
+}
+.imgg-kartinka-body-397-1 img{
+    height: 2.2rem;
+    margin-left: 0.4rem;
+    margin-top: 0.7rem;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    height: 50rem;
+    background: #222222;
+    justify-content: center;
+}
+.footer-1{
+    width: 144.2rem;
+    margin-top: 4rem;
+
+}
+.footer-1-1-1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 27rem;
+    
+}
+.name-block-footer-1-1-1{
+    font-size: 2.4rem;
+    font-family: "Manrop";
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.text2-block-footer-1-1-1{
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #ffffff;
+}
+.text-block-footer-1-1-1{
+    display: flex;
+    height: 2.3rem;
+    margin-bottom: 1.6rem;
+}
+.text-block-footer-1-1-1 img{
+    height: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+.text2-block-footer-1-1-12{
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #ffffff;
+    margin-bottom: 1.6rem;
+}
+.footer-1-1{
+    display: flex;
+}
+.footer-1-1se{
+    display: flex;
+    width: 120.2rem;
+    justify-content: space-between;
+}
+.footer-1-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-1-2-rrr{
+    height: 5rem;
+    width: 144.2rem;
+    display: flex;
+    border-top: 0.1rem solid #FFFFFF40;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 3rem ;
+}
+.foter-text-1-b{
+    font-size: 1.2rem;
+    font-family: "Manrop";
+    color:#fffdfdb2;
+    margin-top: 3rem;
+}
+.foter-text-1-b-2{
+    color:#FFFFFFB2;
+}
+.foter-text-1-b-1 img{
+    height: 2rem;
+    margin-bottom: 1.8rem;
+}
+.foter-text-1-b{
+    display: flex;
+    flex-direction: column;
+}
+.foter-text-1-b-222{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: "Manrop";
+    color:#ffffff;
+    margin-top: 3rem;
+    margin-left: 16rem;
+}
+.foter-text-1-b-1-e{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.foter-text-1-b-2 img{
+    height: 2.4rem;
+}
+.foter-text-1-b-1-er{
+    margin-right: 4rem;
+    cursor: pointer;
+}
+.foter-text-1-b-1-err{
+    margin-right: 4rem;
+    cursor: pointer;
+}
+.foter-text-1-b-1-err:hover{
+    color:#cdcdcd;
+}
+.foter-text-1-b-1-er:hover{
+    color:#cdcdcd;
+}
+.foter-text-1-b-ty{
+    display: flex;
+    margin-top: 3rem;
+    margin-right: 8rem;
+    gap: 1rem;
+}
+.foter-text-1-b-ty-img{
+    height: 6rem;
+}
+.foter-text-1-b-ty-img img{
+    height: 6rem;
+}
+.foter-text-1-b-ty-img:hover{
+    filter: invert(100%) contrast(150%) brightness(110%);
+    cursor: pointer;
+}
+.foter-text-1-b-ty-img-s{
+    height: 5.7rem;
+    width: 5.7rem;
+    border: 0.3rem solid #FFFFFF40;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foter-text-1-b-ty-img-s img{
+    height: 3.8rem;
+    filter: invert(100%) contrast(10%) brightness(110%);
+}
+.foter-text-1-b-ty-img-s:hover{
+    background: #cdcdcd;
+    cursor: pointer;
+}
+.text2-block-footer-1-1-12:hover{
+    color:#d1d1d1;
+    cursor: pointer;
+}
+.text-h-k-2-bootom-480{
+    display: none;
+}
+.text-h-k-2-bootom-ghh{
+    display: none;
+}
+.prozent-24{
+    font-size: 1.3rem;
+    font-family: "Proxi";
+    color:#222;
+    font-weight: bold;
+    position: absolute;
+    top: 2.3rem;
+    left: 2rem;
+}
+.name-kartinka-body-397{
+    font-weight:600;
+  
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    /* Общие настройки */
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    body {
+        
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    
+    html {
+        font-size: 7px;
+        overflow-x: hidden;
+    }
+    
+    .head-1 {
+        display: none !important;
+    }
+    
+   
+    .slaider-h,
+    .kartinki-prezent,
+    .nasga-prod,
+    .video-block,
+    .block-5-s,
+    .section-b6,
+    .block-galeri,
+    .konez-7-block,
+    footer,
+    .kategoriii,
+    .pozimy-mu,
+    .kartinka-body9,
+    .kartinka-body97,
+    .katalog,
+    .katalog-new,
+    .katalog-new-2,
+    .kategoriii1,
+    .pozimy-mu1,
+    header,
+    .deck-mobel {
+        width: 100%;
+        max-width: 480px;
+       
+        box-sizing: border-box !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .kartinka-body{
+        width: 100%;
+        max-width: 480px;
+        box-sizing: border-box !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+         padding-left:0;
+        padding-right: 0;
+    }
+
+    
+    header {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F8F8F8;
+    }
+    
+    .head-2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .head-2 img {
+        width: 11.3rem;
+        height: auto;
+    }
+    
+    .deck-mobel {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .burger {
+        cursor: pointer;
+    }
+    
+    .knopki-h-1,
+    .knopki-h-2 {
+        display: none;
+    }
+
+    .slaider-h {
+        height: auto;
+        min-height: 480px;
+        background-size: cover;
+        background-position: center;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+        position: relative;
+    }
+    
+    .block-s-1-1 {
+        width: 100%;
+        margin-top: 10rem;
+    }
+    
+    .name-block-s-1 {
+        font-size: 4.5rem;
+        text-align: center;
+    }
+    
+    .name-block-s-2 {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    
+    .bottom-block-s-1 {
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-top: 2.5rem;
+        align-items: center;
+    }
+    
+
+    .boottom-1,
+    .boottom-12,
+    .text-h-k-2-bootom,
+    .bottom-prod,
+    .text-kartinka-body-3,
+    .text-kartinka-body-39,
+    .text-kartinka-body-391,
+    .text-kartinka-body-397,
+    .text-kartinka-body-3917,
+    .input-text-21 {
+        width: 100% !important;
+        max-width: calc(100% - 0rem) !important;
+        height: 5.2rem !important;
+        font-size: 1.6rem !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 auto !important;
+        box-sizing: border-box !important;
+        text-align: center !important;
+    }
+    
+    .block-s-2 {
+        position: absolute;
+        right: 2rem;
+        top: 8rem;
+        gap: 1rem;
+    }
+    
+    .block-s-2 img {
+        height: 4rem;
+        width: auto;
+    }
+    
+    .polosu-s {
+        gap: 0.8rem;
+        justify-content: center;
+        position: absolute;
+        bottom: 1.5rem;
+        left: 0;
+        right: 0;
+        display: flex;
+    }
+    
+    .polosu-s1,
+    .polosu-s2 {
+        width: 8rem;
+        height: 0.4rem;
+    }
+
+    
+    .nasga-prod {
+        margin-top: 5rem;
+    }
+    
+    .nasga-prod1 {
+        width: 100%;
+    }
+    
+    .prod-1-b {
+        flex-direction: column;
+        height: auto;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .img-block-prez13 {
+        font-size: 3.2rem;
+        margin-bottom: 1rem;
+        
+    }
+    
+  
+    .text-h-k-2 {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .katalog-prod-b2,
+    .ocnova-katalog {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
+    }
+    
+  
+    .kartochka,
+    .kart-prod-1 {
+        width: 100% !important;
+        max-width: 23.428rem !important;
+        margin: 0 auto !important;
+        
+    }
+    .img-kartochka img,
+    .img-prod-b img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .novin-kartochka {
+        font-size: 1.2rem;
+        margin-top: 0.8rem;
+    }
+    .text-h-k-2-480{
+        display: flex;
+    }
+    .opis-kartochka,
+    .opis-b-prod {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        white-space: normal;
+        overflow: visible;
+        margin-bottom: 0.4rem;
+        margin-top: 0.4rem;
+    }
+    
+    .name-kartochka,
+    .name-b-prod {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+    
+    .price-kartochka {
+        display: flex;
+        gap: 0.8rem;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .price-kartochka1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #000000;
+    }
+    .name-kartochka{
+        font-weight: none;
+    }
+    .price-kartochka2 {
+        font-size: 1.5rem;
+        text-decoration: line-through;
+        color: #999;
+        font-family: "Manrop";
+    }
+    
+    .vce-prod-bot {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+  
+    .kartinka-body {
+        width: 100%;
+    }
+    
+    .kartinka-body-1 {
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem 2rem;
+        min-height: 40rem;
+        width: 100%;
+    }
+    
+    .text-kartinka-b {
+        margin-left: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    
+    .text-kartinka-body-1 {
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+        
+    }
+    
+    .text-kartinka-body-2 {
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        margin-bottom: 2rem;
+        
+    }
+    
+ 
+    .text-kartinka-b2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.8rem;
+        margin-top: 2rem;
+        margin-right: 0;
+    }
+    
+    .kryzok-text-kartinka-b2,
+    .kryzok-text-kartinka-b22 {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+   
+    .kartinka-body-1{
+        margin-top: 4rem;
+    }
+   
+    .kartinka-body-19 {
+        min-height: 35rem;
+        padding: 3rem 2rem;
+        width: 100%;
+    }
+    
+    .text-kartinka-b9 {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .text-kartinka-body-19 {
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    
+    }
+    
+    .text-kartinka-body-29 {
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        margin-bottom: 2.4rem;
+    }
+    
+    .text-kartinka-bss {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        width: 100%;
+    }
+    
+    
+    .kartinka-body-197 {
+        min-height: 26rem;
+        padding: 3rem 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .text-kartinka-b97 {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-kartinka-body-vce {
+        width: 100%;
+    }
+    
+    .text-kartinka-body-197 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+   
+    }
+    
+    .text-kartinka-body-297 {
+        width: 100%;
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .text-kartinka-bss7 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+    }
+    
+    .text-kartinka-body-397,
+    .text-kartinka-body-3917 {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 auto !important;
+    }
+
+    
+    .ocnova-katalog-f2-1 {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
+    }
+    
+    .kartoc-2-pop {
+        width: 100% !important;
+        height: auto !important;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .kartoc-2-pop{
+        text-align: none;
+    }
+    .img-kartoc-23-pop {
+        margin-left: 0;
+    }
+    
+    .img-kartoc-23-pop img {
+        width: 100%;
+    
+        height: auto;
+        margin: 0 auto;
+    }
+    .new-footer-digital{
+        display: flex;
+        justify-content: center;
+    }
+    .img-kartoc-2-pop {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .img-kartoc-3-pop {
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    /* Остальные секции */
+    .kartinki-prezent {
+        flex-direction: column;
+    }
+    
+    .kartinka-1 {
+        width: 100%;
+        height: auto;
+        margin: 4rem 0 0 0;
+    }
+    
+    .kartinka-2 {
+        width: 100%;
+        height: auto;
+        margin: 4rem 0 0 0;
+    }
+    
+    .text-prez {
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        text-align: center;
+    }
+    
+    .text-prez1 {
+        display: none;
+    }
+    
+    .text-prez1112 {
+        display: flex;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .img-block-prez {
+        font-size: 3.2rem;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    
+    .img-block-prez-ss img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.8rem;
+    }
+    
+    .img-block-prez13-- {
+        display: flex;
+        font-size: 3.2rem;
+        margin-top: 3rem;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .bloki-img-svg {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .block-polnost {
+        width: auto;
+        padding: 0 1.5rem;
+        height: 5rem;
+        font-size: 1.3rem;
+        gap: 0.8rem;
+        justify-content: center;
+    }
+    
+    .block-polnost img {
+        width: 2rem;
+    }
+    
+    .bloki-img-svg1 {
+        display: none;
+    }
+    
+    .bloki-img-svg1-- {
+        width: 100%;
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        justify-content: center;
+    }
+    
+    .img-scvg-b1 {
+        font-size: 3.6rem;
+        text-align: center;
+    }
+    
+    .img-svg-b-t {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .block-polnost12 {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .videob-b-2 {
+        height: 35rem;
+        margin-top: 5rem;
+        width: 100%;
+    }
+    
+    .prod-1-b1 {
+        display: none;
+    }
+    
+    .video-block {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .img-block-prez11 {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    
+    .text-prez11 {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        color: #493A31;
+        text-align: center;
+    }
+    
+    .proigruvatel {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .proigruvatel img {
+        width: 5rem;
+    }
+    
+    .video-proz-z {
+        bottom: 2rem;
+        top: auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .text-video-proz-z {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    .text-video-proz-z2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+
+    .block-5-s {
+        margin-top: 5rem;
+    }
+    
+    .block-5-s-1 {
+        width: 100%;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .block-5-s-1-11 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .img-block-5 img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.8rem;
+    }
+    
+    .img-block-prez119 {
+        font-size: 3.2rem;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    
+    .text-prez111 {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        word-break: normal;
+        text-align: center;
+    }
+    
+    .block-polnost1 {
+        width: auto;
+        padding: 0 1.5rem;
+        height: 4.8rem;
+        font-size: 1.3rem;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .section-b6 {
+        height: auto;
+        margin-top: 5rem;
+    }
+    
+    .section-b6-2 {
+        width: 100%;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .section-b6-21 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .block-text-section-b6-2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .img-block-prez190 {
+        font-size: 3.2rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    
+    .bloki-img-svg11 {
+        width: 100%;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        justify-content: center;
+    }
+    
+    .block-polnost11 {
+        padding: 0.8rem 1.2rem;
+        font-size: 1.2rem;
+    }
+    
+    .imgsrc-section-b6-2 {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .imgsrc-section-b6-2 img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.8rem;
+    }
+
+    /* Галерея */
+    .img-block-prez1 {
+        font-size: 3.2rem;
+        margin-top: 5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .img-block-prez1-ff {
+        display: none;
+    }
+    
+    .img-galeri {
+        display: none;
+    }
+    
+    .galeri-mobel {
+        display: flex;
+        margin-top: 3rem;
+        justify-content: center;
+    }
+    
+    .galeri-mobel img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.8rem;
+    }
+
+    /* Форма */
+    .konez-7-block-1 {
+        width: 100%;
+    }
+    
+    .konez-7-block-1-2 {
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+    }
+    
+    .img-konez-7-block-1-2 {
+        display: none;
+    }
+    
+    .forma {
+        width: 100%;
+        height: auto;
+        background: #F7E3C4;
+        padding: 3rem 2rem;
+        border-radius: 1.2rem;
+        box-sizing: border-box;
+    }
+    
+    .forma-2 {
+        width: 100%;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    
+    .input-text-2 {
+        width: 100%;
+        height: 5.2rem;
+        font-size: 1.4rem;
+        padding: 0 1.5rem;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    .input-s-ss {
+        width: 100%;
+        flex-direction: column;
+        gap: 1.2rem;
+        align-items: center;
+    }
+    
+    .input-s-ss-1 {
+        width: 100%;
+        height: 5.2rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .input-s-ss-2 {
+        width: 100%;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        gap: 0.8rem;
+        justify-content: center;
+    }
+    
+    .strelka-form {
+        display: none;
+    }
+
+
+    .kategoriii-katalog {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    .kartochka-kategor {
+        width: 100%;
+        
+    }
+    
+    .img-kategor1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    
+    .img-kategor3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+    
+    .img-kategor3-1 {
+        font-size: 1.2rem;
+        padding: 0.5rem 1.2rem;
+        white-space: nowrap;
+        border-radius: 2rem;
+    }
+   
+    .kartochka-kategor-1 {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    
+    .kartochka-kategor-12 {
+        width: 100%;
+        height: 7.2rem;
+    }
+     .kartochka{
+        height: auto;
+    }
+    .text-kartochka-kategor-12{
+        margin-top: 0.3rem;
+    }
+    .kartochka-kategor-12{
+        display: flex;
+        align-items: center;
+    }
+    .img-kartochka-kategor-12{
+        margin-top: 0;
+    }
+    /* Футер */
+    footer {
+        margin-top: 6rem;
+        background: #F7F8F9;
+    }
+    
+    .d1-footer-sai {
+        display: none;
+    }
+    
+    .foooter-2-sd-model {
+        display: flex;
+        width: 100%;
+    }
+    
+    .footer-2 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 0 0 4rem 0;
+    }
+    
+    .footer-h {
+        width: 100%;
+    }
+    
+    .fot-1-block {
+        margin-top: 4rem;
+        text-align: center;
+    }
+    
+    .img-logo-fot {
+        width: 100%;
+        justify-content: center;
+        gap: 1.2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .img-src-fot-logo img {
+        height: 4.5rem;
+        width: auto;
+    }
+    
+    .text1-src-fot-logo {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .text2-src-fot-logo {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .text2-fot-fot-1-block {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .text3-fot-fot-1-block {
+        width: 100%;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    
+    .fot-text2-fot-fot-1-block {
+        font-size: 1.3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .footer-d {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .text11-src-fot-logo {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .text22-src-fot-logo {
+        width: 100%;
+        justify-content: center;
+        gap: 4rem;
+    }
+    
+    .knopki-foter {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    
+    .footer-d-2 {
+        width: 100%;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    .block-fot-b2 {
+        gap: 1.2rem;
+        margin-bottom: 1.2rem;
+        justify-content: center;
+    }
+    
+    .img-fot-b2 {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    
+    .text-fot-b2 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .footer-3 {
+        width: 100%;
+        position: relative;
+        top: auto;
+        margin-top: 2rem;
+        padding: 2rem 0;
+    }
+    
+    .footer-31 {
+        width: 100%;
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+    
+    .foter-text31 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .katalog-prod-b2,
+    .ocnova-katalog {
+        gap: 1rem !important;
+    }
+    
+    .opis-kartochka,
+    .opis-b-prod {
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+    }
+    
+    .name-kartochka,
+    .name-b-prod {
+        font-size: 1.2rem;
+        font-weight: none;
+    }
+    
+    .price-kartochka1 {
+        font-size: 1.2rem;
+    }
+    
+    .price-kartochka2 {
+        font-size: 1rem;
+    }
+    
+    .name-block-s-1 {
+        font-size: 3.5rem;
+    }
+    
+    .boottom-1,
+    .boottom-12,
+    .text-h-k-2-bootom,
+    .bottom-prod,
+    .text-kartinka-body-3,
+    .text-kartinka-body-39,
+    .text-kartinka-body-391,
+    .text-kartinka-body-397,
+    .text-kartinka-body-3917,
+    .input-text-21 {
+        
+        height: 4.8rem !important;
+        font-size: 1.4rem !important;
+    }
+    
+    .ocnova-katalog-f2-1 {
+        gap: 1rem !important;
+    }
+    
+    .img-kartoc-2-pop {
+        font-size: 1.2rem;
+    }
+    
+    .img-kartoc-3-pop {
+        font-size: 1rem;
+    }
+  
+}
+
+/* Скрытие элементов на десктопе */
+@media (min-width: 481px) {
+    .deck-mobel {
+        display: none !important;
+    }
+    
+    .img-block-prez13-- {
+        display: none !important;
+    }
+    
+    .text-prez1112 {
+        display: none !important;
+    }
+    
+    .galeri-mobel {
+        display: none !important;
+    }
+    
+    .foooter-2-sd-model {
+        display: none !important;
+    }
+    
+    .burger {
+        display: none !important;
+    }
+    
+    
+}
+@media (max-width: 480px) {
+     .head-katalog-oop{
+        margin-top: 2.4rem;
+    }
+    .prozent-24{
+        top:1.2rem;
+        left:1.2rem
+    }
+    footer{
+        display: none;
+    }
+    header {
+        height: 70px;
+        justify-content: center;
+        padding: 0 20px;
+        background: #fff;
+    }
+    
+    .deck-mobel {
+        width: 100%;
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+    
+    .text-h-k-1{
+        width: 100% ;
+    }
+    .head-katalog{
+        display: block;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .text-h-k-2{
+        display: none  !important;
+    }
+    .text-h-k-2-bootom-480:hover{
+        background: #b8b8b8;
+        cursor: pointer;
+    }
+    .text-h-k-2-bootom-480{
+        border: 0.1rem solid #000000;
+        width: 34.3rem;
+    }
+    .text-h-k-2-bootom-ghh{
+        width: 55rem;
+        height: 4rem;
+        border: 0.3rem solid #222222 ;
+        font-family: "Manrop";
+        font-size: 1.5rem; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex !important;
+        border: 0.1rem solid #000000;
+        margin-top: 2rem;
+    }
+    .text-h-k-2-bootom-ghh:hover{
+        background: #a7a7a7;
+        cursor: pointer;
+    }
+    .kartinka-body9{
+        width: 100%;
+        max-width: 480px;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        box-sizing: border-box !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .kartinka-body97{
+        width: 100%;
+        max-width: 480px;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        box-sizing: border-box !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+    }
+    .text-kartinka-body-39{
+        width: 30rem;
+    }
+    .kartinka-body-197{
+        display: flex;
+        background: #00000080;
+    }
+}
+
+
+@media (max-width: 480px) {
+    /* Скрываем старый футер */
+    .d1-footer-sai {
+        display: none !important;
+    }
+    
+    
+    .foooter-2-sd-model {
+        display: flex !important;
+        width: 100%;
+        max-width: 480px;
+        background: #222222;
+        box-sizing: border-box;
+        margin-top: 0;
+        height: 100%;
+    }
+    .new-footer-social-circle img{
+         filter: invert(100%) contrast(10%) brightness(110%);
+    }
+    .new-footer {
+        width: 100%;
+        max-width: 480px;
+        background: #222222;
+        margin: 0 auto;
+        padding: 4rem 2rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .new-footer-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+
+    .new-footer-contacts,
+    .new-footer-faq,
+    .new-footer-purchase,
+    .new-footer-categories,
+    .new-footer-sansation,
+    .new-footer-policy,
+    .new-footer-social,
+    .new-footer-digital {
+        border-bottom: 0.1rem solid #FFFFFF40;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    
+    
+    .new-footer-digital {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+   
+    .new-footer-contacts {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .new-footer-title {
+        font-size: 1.8rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+    
+    .new-footer-contact-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        justify-content: flex-start;
+    }
+    
+    .new-footer-contact-item img {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .new-footer-contact-text {
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        text-align: left;
+    }
+    
+    .new-footer-faq {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .new-footer-faq-item {
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        margin-bottom: 1rem;
+        text-align: left;
+        cursor: pointer;
+    }
+    
+    .new-footer-faq-item:hover {
+        color: #cdcdcd;
+    }
+    
+    .new-footer-purchase {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .new-footer-purchase-item {
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        margin-bottom: 1rem;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .new-footer-categories {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .new-footer-category-item {
+        font-size: 1.3rem;
+        font-family: "manr-1";
+        color: #ffffff;
+        margin-bottom: 1rem;
+        text-align: left;
+        cursor: pointer;
+    }
+    
+  
+    .new-footer-sansation {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .new-footer-sansation-title {
+        font-size: 2rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    
+    .new-footer-links {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1rem;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .new-footer-link {
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+        text-align: left;
+    }
+    
+    .new-footer-link:hover {
+        color: #cdcdcd;
+    }
+    
+   
+    .new-footer-policy {
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffffb2;
+        text-align: left;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .new-footer-social {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .new-footer-social-item {
+        cursor: pointer;
+    }
+    
+    .new-footer-social-item img {
+        height: 6.4rem;
+        width: auto;
+    }
+    
+    .new-footer-social-circle {
+        width: 6.4rem;
+        height: 6.4rem;
+        border: 0.2rem solid #FFFFFF40;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .new-footer-social-circle img {
+        height: 3.8rem;
+        width: auto;
+    }
+    
+    .new-footer-social-item:hover,
+    .new-footer-social-circle:hover {
+        filter: invert(100%) contrast(150%) brightness(110%);
+        cursor: pointer;
+        background: #000000;
+        border-radius: 50%;
+    }
+
+    .new-footer-digital {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .new-footer-digital img {
+        height: 4rem;
+        width: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .new-footer-digital-text {
+        font-size: 1rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffffb2;
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .kartinka-body-1{
+        text-align: none;
+    }
+    .nasga-prod {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    .nasga-prod1 {
+        width: 100%;
+    }
+    
+    /* Сетка карточек - 2 колонки с адаптивной шириной */
+    .katalog-prod-b2,
+    .ocnova-katalog {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
+    }
+    
+    /* Карточка - ширина подстраивается под колонку */
+    .kartochka,
+    .kart-prod-1 {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        font-family: "Manrop";
+    }
+    
+    /* Изображение занимает всю ширину карточки */
+    .img-kartochka img,
+    .img-prod-b img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover;
+  
+    }
+    
+    /* Текст внутри карточки */
+    .novin-kartochka {
+        font-size: 1.2rem;
+        margin-top: 0.4rem;
+        font-family: "Manrop";
+    }
+    
+    .opis-kartochka,
+    .opis-b-prod {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        white-space: normal;
+        overflow: visible;
+        word-break: break-word;
+        font-family: 'Manrope', sans-serif;
+    }
+    
+    .name-kartochka,
+    .name-b-prod {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        word-break: break-word;
+        font-family: 'Manrope', sans-serif;
+       font-weight: normal !important;
+    }
+    
+    .price-kartochka {
+        display: flex;
+        gap: 0.8rem;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .price-kartochka1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #D33918;
+    }
+    
+    .price-kartochka2 {
+        font-size: 1.3rem;
+        text-decoration: line-through;
+        color: #999;
+    }
+    .price-kartochka1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #000000;
+         font-family: "Manrop";
+    }
+}
+@media (max-width: 480px) {
+    .text-h-k-2-480 {
+        display: flex !important;
+        justify-content: center;
+        margin-top: 2rem;
+        width: 100%;
+        box-sizing: border-box;
+        
+    }
+    
+    .text-h-k-2-bootom-480 {
+        display: flex !important;
+        width: 100% !important;
+        height: 4.8rem;
+        border: 0.1rem solid #000000;
+        font-family: "Manrop";
+        font-size: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: white;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 480px) {
+    .kartinka-body {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: calc(-50vw + 50%) !important;
+        margin-right: calc(-50vw + 50%) !important;
+        left: auto;
+        right: auto;
+        position: relative;
+    }
+}
+@media (max-width: 480px) {
+    .kartinka-body{
+        width: 100%;
+        max-width: 480px;
+        box-sizing: border-box !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
+
+
+
+
+@font-face {
+    font-family: "Proxi";
+    src: url("../js/ofont.ru_Proxima Nova.ttf");
+}
+@font-face {
+    font-family: "Manrop";
+    src: url("../js/ofont.ru_Manrope.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../js/Inter-Light.otf");
+}
+
+/* Глобальные настройки - без ограничений ширины */
+html {
+    font-size: clamp(3px, 0.52083333vw, 14px);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Десктопные стили (все как у вас было) */
+.head-1 {
+    display: flex;
+    font-family: "Manrop";
+    font-size: 1.5rem; 
+    width: 100%;
+    background: #F8F8F8;
+    gap: 3rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-1-s {
+    display: flex;
+    gap: 3rem;
+    width: 144rem;
+    justify-content: flex-end;
+}
+
+.knopki-head {
+    cursor: pointer;
+}
+
+.knopki-head:hover {
+    color: #69707D;
+}
+
+.head-2 {
+    width: 100%;
+    height: 6.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.2rem solid #E8EAED;
+}
+
+.head-2 img {
+    width: 11.3rem;
+}
+
+.text-h-k-1-1 {
+    font-family: "Manrop";
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+.text-h-k-1-2 {
+    font-family: "Manrop";
+    font-size: 1.5rem; 
+    color: #222222;
+}
+
+.text-h-k-2-bootom {
+    width: 14.1rem;
+    height: 4rem;
+    border: 0.3rem solid #222222;
+    font-family: "Manrop";
+    font-size: 1.5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-h-k-2-bootom:hover {
+    background: #a8a8a8;
+    cursor: pointer;
+}
+
+.katalog {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.katalog{
+    margin-top: 4.8rem
+}
+
+.katalog-new {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.katalog-new-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-katalog {
+    display: flex;
+    width: 144rem;
+    justify-content: space-between;
+    margin-top: 13rem;
+    align-items: flex-end;
+}
+
+.head-katalog-oop {
+    display: flex;
+    width: 144rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+    align-items: flex-end;
+}
+
+.head-katalog-kl {
+    display: flex;
+    width: 144rem;
+    justify-content: space-between;
+    margin-top: 0rem;
+    align-items: flex-end;
+}
+
+.kartochka {
+    width: 62.1rem;
+    height: 39.5rem;
+    font-family: 'Manrop';
+    font-size: 1.5rem; 
+    position: relative;
+}
+
+.novin-kartochka {
+    color: #D33918;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.opis-kartochka {
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.img-kartochka img {
+    width: 34.4rem;
+}
+
+.name-kartochka {
+    margin-bottom: 1rem;
+}
+
+.price-kartochka {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+}
+
+.price-kartochka2 {
+    color: #69707D;
+    text-decoration: line-through;
+    margin-left: 1rem;
+    font-family: "Inter";
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+}
+
+.ocnova-katalog {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 3rem;
+    width: 144rem;
+}
+
+.img-kartoc-2-pop {
+    font-size: 2rem;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.kartinka-body-1 {
+    background-image: url('../img/d2b281e5640a1d5a73a678b4a77bf793278ad585 (2).jpg');
+    width: 144.2rem;
+    height: 36.3rem;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 800px rgb(0, 0, 0);
+    margin-top: 14rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kartinka-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-kartinka-body-1 {
+    font-size: 4rem;
+    font-family: "Manrop";
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.text-kartinka-body-2 {
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #fff;
+    width: 40rem;
+    margin-bottom: 3.2rem;
+    line-height: 2rem;
+}
+
+.text-kartinka-body-3 {
+    height: 4.8rem;
+    width: 18.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #000;
+    font-weight: bold;
+}
+
+.text-kartinka-body-3:hover {
+    cursor: pointer;
+    background: #cacaca;
+    color: #000;
+}
+
+.kryzok-text-kartinka-b2 {
+    background: #ffffff;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+    opacity: 15%;
+}
+
+.kryzok-text-kartinka-b22 {
+    background: #f5f5f5;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+}
+
+.text-kartinka-b2 {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.text-kartinka-b {
+    margin-left: 4rem;
+}
+
+.kartoc-2-pop {
+    background: #F8F8F8;
+    width: 34.6rem;
+    height: 37.5rem;
+    cursor: pointer;
+}
+
+.img-kartoc-2-pop {
+    font-size: 2rem;
+    font-family: "Manrop";
+    color: #000;
+    margin-left: 3rem;
+}
+
+.img-kartoc-3-pop {
+    font-size: 1.7rem;
+    font-family: "Manrop";
+    color: #000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+.ocnova-katalog-f2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.ocnova-katalog-f2-1 {
+    width: 144.2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.img-kartoc-23-pop {
+    margin-left: 2rem;
+    margin-top: -2rem;
+}
+
+.img-kartoc-23-pop img {
+    height: 30rem;
+}
+
+.kartoc-2-pop:hover .img-kartoc-2-pop,
+.kartoc-2-pop:hover .img-kartoc-3-pop {
+    color: #69707D;
+    transition: all .2s ease;
+}
+
+.img-kartoc-3-pop {
+    margin-top: 0.5rem;
+}
+
+.kategoriii {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.kategoriii1 {
+    display: flex;
+    width: 144.2rem;
+    flex-direction: column;
+}
+
+.img-kategor1 img {
+    width: 46.7rem;
+}
+
+.img-kategor3 {
+    display: flex;
+    gap: 1rem;
+    width: 38rem;
+    flex-wrap: wrap;
+}
+
+.img-kategor3-1 {
+    display: inline-flex;
+    height: 3.2rem;
+    align-items: center;
+    border: 0.1rem solid #E8EAED;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #222222;
+    padding: 0 1.5rem;
+    white-space: nowrap;
+}
+
+.img-kategor2 {
+    font-size: 2rem;
+    font-family: "Manrop";
+    color: #222222;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.img-kategor2:hover {
+    color: #D33918;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.kategoriii-katalog {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.text-h-k-1-1s {
+    font-family: "Manrop";
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 2rem;
+}
+
+.kartochka-kategor-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kartochka-kategor-12 {
+    border: 0.1rem solid #E8EAED;
+    width: 34.6rem;
+    height: 16.4rem;
+}
+
+.pozimy-mu1 {
+    width: 144.2rem;
+    margin-top: 5rem;
+}
+
+.pozimy-mu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-kartochka-kategor-12 img {
+    height: 3.2rem;
+}
+
+.img-kartochka-kategor-12 {
+    margin-top: 2.4rem;
+    margin-left: 2.4rem;
+}
+
+.text-kartochka-kategor-12 {
+    font-family: "Manrop";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222222;
+    margin-top: 5.6rem;
+    margin-left: 2rem;
+}
+
+.kartinka-body-19 {
+    background-image: url('../img/bd44bebc7332a29fc04c0a814e445b4e1e7f1288.jpg');
+    width: 100%;
+    height: 36.3rem;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 800px rgb(0, 0, 0);
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-kartinka-b9 {
+    margin-left: 24rem;
+}
+
+.kartinka-body9 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-kartinka-body-19 {
+    font-size: 4rem;
+    font-family: "Manrop";
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+}
+
+.text-kartinka-body-29 {
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #fff;
+    width: 70rem;
+    margin-bottom: 3.2rem;
+    line-height: 2rem;
+}
+
+.text-kartinka-body-39 {
+    height: 5.8rem;
+    width: 20.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #000;
+    border: 0.2rem solid #fff;
+}
+
+.text-kartinka-body-39:hover {
+    cursor: pointer;
+    background: #cacaca;
+    color: #000;
+}
+
+.kryzok-text-kartinka-b29 {
+    background: #ffffff;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+    opacity: 15%;
+}
+
+.kryzok-text-kartinka-b229 {
+    background: #f5f5f5;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+}
+
+.text-kartinka-b29 {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.text-kartinka-body-391 {
+    height: 5.8rem;
+    width: 20.5rem;
+    border: 0.2rem solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #fff;
+}
+
+.text-kartinka-body-391:hover {
+    background: #96989b67;
+    cursor: pointer;
+}
+
+.text-kartinka-bss {
+    display: flex;
+    gap: 2rem;
+}
+
+.kartinka-body-197 {
+    background: #9E9E9E;
+    width: 100%;
+    height: 14rem;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-kartinka-b97 {
+    display: flex;
+    width: 144.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kartinka-body97 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-kartinka-body-197 {
+    font-size: 2.4rem;
+    font-family: "Manrop";
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+.text-kartinka-body-297 {
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #fff;
+    width: 70rem;
+    margin-bottom: 3.2rem;
+    line-height: 2rem;
+}
+
+.text-kartinka-body-397 {
+    height: 4.8rem;
+    width: 22.8rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #000;
+}
+
+.text-kartinka-body-397:hover {
+    cursor: pointer;
+    background: #cacaca;
+    color: #000;
+}
+
+.kryzok-text-kartinka-b297 {
+    background: #ffffff;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+    opacity: 15%;
+}
+
+.kryzok-text-kartinka-b2297 {
+    background: #f5f5f5;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+}
+
+.text-kartinka-b297 {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.text-kartinka-body-3917 {
+    height: 4.8rem;
+    width: 22.8rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-kartinka-body-3917:hover {
+    background: #cacaca;
+    cursor: pointer;
+}
+
+.text-kartinka-bss7 {
+    display: flex;
+    gap: 2rem;
+}
+
+.text-kartinka-body-vce {
+    width: 36.2rem;
+    margin-top: 0rem;
+}
+
+.text-kartinka-bss7 {
+    margin-right: 2rem;
+}
+
+.imgg-kartinka-body-397 img {
+    height: 1.1rem;
+    margin-left: 0.4rem;
+}
+
+.imgg-kartinka-body-397-1 img {
+    height: 2.2rem;
+    margin-left: 0.4rem;
+    margin-top: 0.7rem;
+}
+
+/* Старый футер */
+footer {
+    width: 100%;
+    display: flex;
+    height: 50rem;
+    background: #222222;
+    justify-content: center;
+}
+
+.footer-1 {
+    width: 144.2rem;
+    margin-top: 4rem;
+}
+
+.footer-1-1-1 {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 27rem;
+}
+
+.name-block-footer-1-1-1 {
+    font-size: 2.4rem;
+    font-family: "Manrop";
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.text2-block-footer-1-1-1 {
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #ffffff;
+}
+
+.text-block-footer-1-1-1 {
+    display: flex;
+    height: 2.3rem;
+    margin-bottom: 1.6rem;
+}
+
+.text-block-footer-1-1-1 img {
+    height: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text2-block-footer-1-1-12 {
+    font-size: 1.5rem;
+    font-family: "Manrop";
+    color: #ffffff;
+    margin-bottom: 1.6rem;
+}
+
+.footer-1-1 {
+    display: flex;
+}
+
+.footer-1-1se {
+    display: flex;
+    width: 120.2rem;
+    justify-content: space-between;
+}
+
+.footer-1-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-1-2-rrr {
+    height: 5rem;
+    width: 144.2rem;
+    display: flex;
+    border-top: 0.1rem solid #FFFFFF40;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+
+.foter-text-1-b {
+    font-size: 1.2rem;
+    font-family: "Manrop";
+    color: #fffdfdb2;
+    margin-top: 3rem;
+}
+
+.foter-text-1-b-2 {
+    color: #FFFFFFB2;
+}
+
+.foter-text-1-b-1 img {
+    height: 2rem;
+    margin-bottom: 1.8rem;
+}
+
+.foter-text-1-b {
+    display: flex;
+    flex-direction: column;
+}
+
+.foter-text-1-b-222 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: "Manrop";
+    color: #ffffff;
+    margin-top: 3rem;
+    margin-left: 16rem;
+}
+
+.foter-text-1-b-1-e {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.foter-text-1-b-2 img {
+    height: 2.4rem;
+}
+
+.foter-text-1-b-1-er {
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.foter-text-1-b-1-err {
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.foter-text-1-b-1-err:hover {
+    color: #cdcdcd;
+}
+
+.foter-text-1-b-1-er:hover {
+    color: #cdcdcd;
+}
+
+.foter-text-1-b-ty {
+    display: flex;
+    margin-top: 3rem;
+    margin-right: 8rem;
+    gap: 1rem;
+}
+
+.foter-text-1-b-ty-img {
+    height: 6rem;
+}
+
+.foter-text-1-b-ty-img img {
+    height: 6rem;
+}
+
+.foter-text-1-b-ty-img:hover {
+    filter: invert(100%) contrast(150%) brightness(110%);
+    cursor: pointer;
+}
+
+.foter-text-1-b-ty-img-s {
+    height: 5.7rem;
+    width: 5.7rem;
+    border: 0.3rem solid #FFFFFF40;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foter-text-1-b-ty-img-s img {
+    height: 3.8rem;
+    filter: invert(100%) contrast(10%) brightness(110%);
+}
+
+.foter-text-1-b-ty-img-s:hover {
+    background: #cdcdcd;
+    cursor: pointer;
+}
+
+.text2-block-footer-1-1-12:hover {
+    color: #d1d1d1;
+    cursor: pointer;
+}
+
+.text-h-k-2-bootom-480 {
+    display: none;
+}
+
+.text-h-k-2-bootom-ghh {
+    display: none;
+}
+.katalog{
+    margin-top: 0;
+}
+.katalog-kiy{
+    margin-top: 4.8rem;
+}
+.prozent-24 {
+    font-size: 1.3rem;
+    font-family: "Proxi";
+    color: #222;
+    font-weight: bold;
+    position: absolute;
+    top: 2.3rem;
+    left: 2rem;
+}
+
+.name-kartinka-body-397 {
+    font-weight: 600;
+}
+.text-kartinka-body-vce{
+    margin-top: 3rem;
+}
+
+
+@media (max-width: 480px) {
+   
+    html, body {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    html {
+        font-size: 7px;
+    }
+    
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+   
+    .head-1 {
+        display: none !important;
+    }
+
+  
+    .slaider-h,
+    .kartinki-prezent,
+    .nasga-prod,
+    .video-block,
+    .block-5-s,
+    .section-b6,
+    .block-galeri,
+    .konez-7-block,
+    footer,
+    .kategoriii,
+    .pozimy-mu,
+    .kartinka-body9,
+    .kartinka-body97,
+    .katalog,
+    .katalog-new,
+    .katalog-new-2,
+    .kategoriii1,
+    .pozimy-mu1,
+    header,
+    .deck-mobel,
+    .kartinka-body,
+    .kartinka-body-1,
+    .head-2,
+    .footer-1,
+    .new-footer,
+    .foooter-2-sd-model {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        box-sizing: border-box !important;
+    }
+    
+
+    .slaider-h,
+    .kartinki-prezent,
+    .nasga-prod,
+    .video-block,
+    .block-5-s,
+    .section-b6,
+    .block-galeri,
+    .konez-7-block,
+    .kategoriii,
+    .pozimy-mu,
+    .kartinka-body9,
+    .kartinka-body97,
+    .katalog,
+    .katalog-new,
+    .katalog-new-2,
+    .kategoriii1,
+    .pozimy-mu1,
+    header,
+    .deck-mobel {
+        padding-left: 1.6rem !important;
+        padding-right: 1.6rem !important;
+    }
+    .kartinka-body9{
+         padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+    /* Слайдер без отступов по краям */
+    .kartinka-body {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .kartinka-body-1 {
+        padding-left: 1.6rem !important;
+        padding-right: 1.6rem !important;
+        margin-top: 4rem;
+    }
+    
+    
+    header {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .head-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .head-2 img {
+        width: 11.3rem;
+        height: auto;
+    }
+    
+    .deck-mobel {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .burger {
+        cursor: pointer;
+    }
+    
+  
+    .slaider-h {
+        height: auto;
+        min-height: 480px;
+        background-size: cover;
+        background-position: center;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+        position: relative;
+    }
+    .kartinka-body97{
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+    .block-s-1-1 {
+        width: 100%;
+        margin-top: 10rem;
+    }
+    
+    .name-block-s-1 {
+        font-size: 4.5rem;
+        text-align: center;
+    }
+    
+    .name-block-s-2 {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    
+    .bottom-block-s-1 {
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-top: 2.5rem;
+        align-items: center;
+    }
+    
+   
+    .boottom-1,
+    .boottom-12,
+    .text-h-k-2-bootom,
+    .bottom-prod,
+    .text-kartinka-body-3,
+    .text-kartinka-body-39,
+    .text-kartinka-body-391,
+    .text-kartinka-body-397,
+    .text-kartinka-body-3917,
+    .input-text-21 {
+        width: 100% !important;
+        height: 5.2rem !important;
+        font-size: 1.6rem !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 auto !important;
+        box-sizing: border-box !important;
+    }
+    
+    .block-s-2 {
+        position: absolute;
+        right: 2rem;
+        top: 8rem;
+        gap: 1rem;
+    }
+    
+    .block-s-2 img {
+        height: 4rem;
+        width: auto;
+    }
+    
+    .polosu-s {
+        gap: 0.8rem;
+        justify-content: center;
+        position: absolute;
+        bottom: 1.5rem;
+        left: 0;
+        right: 0;
+        display: flex;
+    }
+    
+    .polosu-s1,
+    .polosu-s2 {
+        width: 8rem;
+        height: 0.4rem;
+    }
+    
+    
+    .nasga-prod {
+        margin-top: 5rem;
+    }
+    
+    .nasga-prod1 {
+        width: 100%;
+    }
+    
+    .head-katalog-oop {
+        margin-top: 2.4rem;
+    }
+    
+    .prod-1-b {
+        flex-direction: column;
+        height: auto;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .img-block-prez13 {
+        font-size: 3.2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .text-h-k-2 {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+   
+    .katalog-prod-b2,
+    .ocnova-katalog {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
+    }
+    
+    .kartochka,
+    .kart-prod-1 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        height: auto !important;
+    }
+    
+    .img-kartochka img,
+    .img-prod-b img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .prozent-24 {
+        top: 1.2rem;
+        left: 1.2rem;
+        font-size: 1.3rem;
+    }
+    
+    .novin-kartochka {
+        font-size: 1.2rem;
+        margin-top: 0.8rem;
+    }
+    
+    .opis-kartochka,
+    .opis-b-prod {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        white-space: normal;
+        overflow: visible;
+        margin-bottom: 0.4rem;
+        margin-top: 0.4rem;
+    }
+    
+    .name-kartochka,
+    .name-b-prod {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        font-weight: normal !important;
+    }
+    
+    .price-kartochka {
+        display: flex;
+        gap: 0.8rem;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .price-kartochka1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    .price-kartochka2 {
+        font-size: 1.5rem;
+        text-decoration: line-through;
+        color: #999;
+    }
+  
+    .text-h-k-2-480 {
+        display: flex !important;
+        justify-content: center;
+        margin-top: 2rem;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+   
+    
+    
+    .kartinka-body-1 {
+        flex-direction: column;
+        justify-content: center;
+
+        min-height: 40rem;
+    }
+    
+    .text-kartinka-b {
+        margin-left: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    
+    .text-kartinka-body-1 {
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .text-kartinka-body-2 {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .text-kartinka-b2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.8rem;
+        margin-top: 8rem;
+        margin-right: 0;
+    }
+    
+    .kryzok-text-kartinka-b2,
+    .kryzok-text-kartinka-b22 {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    .kartinka-body-19 {
+        min-height: 35rem;
+        padding: 3rem 2rem;
+        width: 100%;
+    }
+    
+    .text-kartinka-b9 {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .text-kartinka-body-19 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+       
+    }
+    
+    .text-kartinka-body-29 {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+       
+    }
+    
+    .text-kartinka-bss {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        width: 100%;
+    }
+    
+    
+    .kartinka-body-197 {
+        min-height: 26rem;
+        padding: 3rem 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #00000080;
+    }
+    
+    .text-kartinka-b97 {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-kartinka-body-vce {
+        width: 100%;
+       
+    }
+    
+    .text-kartinka-body-197 {
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .text-kartinka-body-297 {
+        width: 100%;
+        font-size: 1.7rem;
+        margin-bottom: 2.4rem;
+        font-family: "manr-1";
+    
+    }
+    
+    .text-kartinka-bss7 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-right: 0;
+        width: 100%;
+        display: flex;
+    }
+    
+    .text-kartinka-body-39 {
+        width: 30rem;
+    }
+    
+
+    .head-katalog-kl {
+        margin-top: 1rem;
+    }
+    
+    .ocnova-katalog-f2-1 {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
+    }
+    
+    .kartoc-2-pop {
+        width: 100% !important;
+        height: auto !important;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .img-kartoc-23-pop {
+        margin-left: 0;
+    }
+    
+    .img-kartoc-23-pop img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .img-kartoc-2-pop {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .img-kartoc-3-pop {
+        font-size: 1.5rem;
+        margin-left: 0;
+        margin-top: 0.5rem;
+        text-align: center;
+        
+    }
+    
+    .text-h-k-2-bootom-ghh {
+        height: 5.8rem;
+        border: 0.1rem solid #000000;
+        font-family: "Manrop";
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+   
+    .kategoriii-katalog {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    .kartochka-kategor {
+        width: 100%;
+    }
+    
+    
+    .img-kategor3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+    
+    .img-kategor3-1 {
+        font-size: 1.2rem;
+        padding: 0.5rem 1.2rem;
+        white-space: nowrap;
+        border-radius: 2rem;
+    }
+    
+    .kartochka-kategor-1 {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    
+    .kartochka-kategor-12 {
+        width: 100%;
+        height: 7.2rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .text-kartochka-kategor-12 {
+        margin-top: 0.3rem;
+        text-align: center;
+    }
+    
+    .img-kartochka-kategor-12 {
+        margin-top: 0;
+    }
+   
+    footer {
+        display: none;
+    }
+    
+    .d1-footer-sai {
+        display: none !important;
+    }
+  
+    .foooter-2-sd-model {
+        display: flex !important;
+        background: #222222;
+        box-sizing: border-box;
+    }
+    
+    .new-footer {
+        background: #222222;
+        padding: 4rem 2rem;
+        box-sizing: border-box;
+    }
+    
+    .new-footer-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    
+    .new-footer-contacts,
+    .new-footer-faq,
+    .new-footer-purchase,
+    .new-footer-categories,
+    .new-footer-sansation,
+    .new-footer-policy,
+    .new-footer-social,
+    .new-footer-digital {
+        border-bottom: 0.1rem solid #FFFFFF40;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .new-footer-sansation{
+        border-bottom: 0rem solid #FFFFFF40;
+    }
+    .new-footer-digital {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .img-kategor1 img{
+        height: 18.4rem;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0.8rem;
+    }
+    .new-footer-title {
+        font-size: 1.8rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .new-footer-contact-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        justify-content: flex-start;
+    }
+    
+    .new-footer-contact-item img {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    
+    .new-footer-contact-text {
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        text-align: left;
+    }
+    
+    .new-footer-faq-item,
+    .new-footer-purchase-item,
+    .new-footer-category-item {
+        font-size: 1.5rem;
+        font-family: "manr-1";
+        color: #ffffff;
+        margin-bottom: 1rem;
+        text-align: left;
+        cursor: pointer;
+    }
+    
+    .new-footer-sansation-logo img {
+        height: 4rem;
+        width: auto;
+        margin-bottom: 1rem;
+    }
+    .new-footer-social-item{
+        height: 5rem;
+    }
+    
+    
+    .new-footer-links {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1rem;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .new-footer-link {
+        font-size: 1.3rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+        text-align: left;
+    }
+    
+    .new-footer-policy {
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffffb2;
+        text-align: left;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-top: 1.6rem;
+    }
+    .new-footer-policy{
+        border-bottom: 0rem solid #FFFFFF40;
+    }
+    .new-footer-social{
+         border-bottom: 0rem solid #FFFFFF40;
+    }
+    .new-footer-social {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .new-footer-social-item {
+        cursor: pointer;
+    }
+    
+    .new-footer-social-item img {
+        height: 6.4rem;
+    }
+    
+    .new-footer-social-circle {
+        width: 6.4rem;
+        height: 6.4rem;
+        border: 0.2rem solid #FFFFFF40;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .new-footer-social-circle img {
+        height: 3.8rem;
+        width: auto;
+    }
+    
+    .new-footer-social-item:hover,
+    .new-footer-social-circle:hover {
+        filter: invert(100%) contrast(150%) brightness(110%);
+        cursor: pointer;
+        background: #000000;
+        border-radius: 50%;
+    }
+    
+    .new-footer-digital {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .new-footer-digital img {
+        height: 4rem;
+        width: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .new-footer-digital-text {
+        font-size: 1rem;
+        font-family: 'Inter', sans-serif;
+        color: #ffffffb2;
+        text-align: center;
+    }
+    .head-katalog{
+        margin-top: 4rem;
+    }
+    .text-kartinka-body-3{
+        height: 4.8rem;
+    }
+    .kartinka-body-197 {
+        min-height: 30rem;
+        padding: 3rem 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-kartinka-body-1{
+        margin-top: 4rem;
+    }
+    .text-kartinka-body-2{
+        font-size: 1.4rem;
+    }
+    .head-2-222{
+        display: flex;
+        width: 100%;
+        height: 6.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0.2rem solid #E8EAED;
+    }
+    .head-2{
+        display: none;
+    }
+    .opis-kartochka{
+        font-size: 1.4rem;
+        white-space: nowrap; /* Запрещаем переносы строки — текст не должен уходить на следующую */
+        overflow: hidden; /* Скрываем содержимое, которое выходит за границы */
+        text-overflow: ellipsis;
+        margin-bottom: 1rem;
+    }
+    .name-kartochka{
+        font-size: 1.4rem;
+        margin-bottom: 0.7rem;
+    }
+    .price-kartochka1{
+        font-size: 1.4rem;
+    }
+    .price-kartochka2{
+        font-size: 1.4rem;
+    }
+    .novin-kartochka{
+        font-size: 1.4rem;
+    }
+    .prozent-24{
+        font-size: 1.4rem;
+    }
+    .text-h-k-2-bootom-480{
+        height: 5.8rem;
+    }
+    .text-kartinka-body-2{
+        font-size: 1.8rem;
+    }
+    .text-kartinka-body-3{
+        height: 6rem !important;
+    }
+    .img-kategor3-1{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+    }
+    .text-kartochka-kategor-12{
+        font-size: 1.7rem;
+    }
+    .text-kartinka-body-19{
+        font-size: 2.6rem;
+    }
+    .text-kartinka-body-29{
+        font-size: 1.9rem;
+        font-family: "manr-1";
+        line-height: 20px;
+    }
+    .text-kartinka-body-39{
+        height: 5.8rem;
+        
+    }
+    .new-footer-social-item img{
+        height: 8rem;
+    }
+    .new-footer-social-circle{
+         height: 8rem;
+         width: 8rem;
+    }
+    .new-footer-social-circle img{
+         height: 5rem;
+         width: 5rem;
+    }
+    .new-footer-contact-text{
+        font-size: 1.7rem;
+        font-family: "manr-1";
+    }
+    .new-footer-sansation-logo img{
+        height: 2rem;
+    }
+    .new-footer-policy{
+        font-size: 1.4rem;
+    }
+    .new-footer-link{
+        font-size: 1.6rem;
+        font-family: "manr-1";
+    }
+    .new-footer-social{
+        gap:2rem;
+    }
+    .price-kartochka2{
+        margin-left: 0rem;
+    }
+    .text-kartinka-body-2{
+        line-height: 3rem;
+        font-family: "manr-1";
+    }
+    .img-kartoc-3-pop{
+        font-size: 1.8rem;
+    }
+    .kartochka-kategor-12{
+        border-radius: 1rem;
+    }
+    .new-footer-contact-text-s{
+        font-size: 1.7rem;
+        font-family: "manr-1" ;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: left;
+        margin-top: 0;
+    }
+     .new-footer-contact-item-s {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+        justify-content: flex-start;
+    }
+    
+    .new-footer-contact-item img {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+}
